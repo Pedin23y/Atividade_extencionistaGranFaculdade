@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap');
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-image: url('img/backgroundcentral.png'); /* ou .png */
+    background-size: cover; /* cobre toda a tela */
+    background-repeat: no-repeat; /* não repete a imagem */
+    background-attachment: fixed; /* fundo fixo ao rolar */
+    background-position: center; /* centraliza a imagem */
+    color: white; /* muda a cor do texto para branco (se o fundo for escuro) */
+
+
+}
+
+header {
+
+    padding: 1px;
+    text-align: center;
+    position: relative;
+    height: 200px; /* ajuste conforme a altura das imagens */
+    overflow: hidden;
+    border-radius: 60px;
+}
+
+header h1{
+    position: absolute; /* Faz o título sobrepor o template */
+    top: 10px; /* Distância do topo */
+    left: 650px; /* Distância da esquerda */
+    z-index: 2; /* acima de tudo */
+    display: inline;
+    text-shadow: 
+        -1px -1px 0 #000,  
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000; /* Cria um efeito de borda no texto */
+    color: white; /* Cor do texto */
+    font-family: "Caveat Brush", cursive;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+nav {
+  position: absolute;
+  top: 180px;
+  left: 0px;
+  width: 100%;
+  z-index: 1; /* acima do template */
+}
+
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin: 20px 0;
+}
+
+.rodape {
+    position: absolute;
+    bottom: 20px; /* ou ajuste conforme necessário */
+    left: 0;
+    width: 100%;
+    z-index: 2;
+    color: #fff;
+    text-align: center;
+    padding: 10px 20px;
+    text-shadow: 1px 1px 2px #000; /* melhora a legibilidade do texto */
+}
+
+.rodape p {
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+
+footer {
+    position: relative;
+    text-align: center;
+    padding: 0;
+    margin-top: 40px;
+    height: 150px; /* ou a altura da imagem de grama */
+}
+
+
+
+.ico {
+    width: 30px;
+    height: auto;
+
+
+}
+
+.social-item {
+    display: flex;       /* Coloca ícone e texto na mesma linha */
+    align-items: center; /* Centraliza verticalmente */
+    left: 1000px;
+    position: absolute;
+}
+
+.menu-principal {
+    position: absolute;
+    top: 155px;
+    left: 300;
+    width: 100%;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    font-family: "Caveat Brush", cursive;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+
+#grama {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+}
+
+
+#template{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 0; /* fica no fundo */
+}
+
+#serca_menu {
+  position: absolute;
+  top: 150px;
+  left: 0;
+  width: 100%;
+  z-index: 1; /* acima do fundo */
+}
+
+.feedback {
+    position: relative;
+    z-index: 0;
+    padding: 20px;
+    margin-top: 60px;
+    background-image: url(img/textura_madeira.jpg);
+    border-radius: 20px;
+    width: 600px;
+    height: auto;
+}
+
+.atencao{
+    background-color: #000;
+    border-radius: 20px;
+    padding: 20px;
+    width: 600px;
+}
+
+#tukalj{
+    width: 400px;
+
+}
+
+
